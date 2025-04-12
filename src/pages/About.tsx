@@ -1,5 +1,7 @@
+
 import HeroSection from '@/components/sections/HeroSection';
 import TrustSection from '@/components/sections/TrustSection';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const About = () => {
   return (
@@ -26,15 +28,6 @@ const About = () => {
               <p className="text-gray-700">
                 At Blyevic Technology Solutions, we are committed to using the highest quality materials and the latest technologies to ensure the reliability and efficiency of our installations. Our dedication to excellence is reflected in every project we undertake.
               </p>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-lg bg-gray-100 flex items-center justify-center">
-              <div className="text-center p-8">
-                <h3 className="text-2xl font-bold mb-4">Victor Odhiambo</h3>
-                <p className="text-brand-blue font-medium mb-4">Technical Director</p>
-                <p className="text-gray-700">
-                  Victor Odhiambo leads our team with years of technical expertise and industry knowledge. With a strong background in engineering and a passion for innovative solutions, Victor ensures that Blyevic Technology Solutions delivers professional cooling and fabrication services that meet the highest standards of quality.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -70,8 +63,18 @@ const About = () => {
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="p-8 text-center">
+          <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row items-center">
+            <div className="w-full md:w-1/3 p-6">
+              <Avatar className="w-full h-full">
+                <AvatarImage 
+                  src="/lovable-uploads/746b5d97-0cb9-47e0-bbe8-3ccaf8084741.png" 
+                  alt="Victor Odhiambo" 
+                  className="object-cover"
+                />
+                <AvatarFallback>VO</AvatarFallback>
+              </Avatar>
+            </div>
+            <div className="w-full md:w-2/3 p-8">
               <h3 className="text-2xl font-bold mb-2">Victor Odhiambo</h3>
               <p className="text-brand-blue font-medium mb-4">Technical Director</p>
               <p className="text-gray-700 mb-4">
