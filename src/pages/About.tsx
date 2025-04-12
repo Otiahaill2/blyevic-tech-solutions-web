@@ -1,4 +1,3 @@
-
 import HeroSection from '@/components/sections/HeroSection';
 import TrustSection from '@/components/sections/TrustSection';
 
@@ -28,12 +27,14 @@ const About = () => {
                 At Blyevic Technology Solutions, we are committed to using the highest quality materials and the latest technologies to ensure the reliability and efficiency of our installations. Our dedication to excellence is reflected in every project we undertake.
               </p>
             </div>
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?auto=format&fit=crop&q=80"
-                alt="Professional cooling equipment installation"
-                className="w-full h-auto"
-              />
+            <div className="rounded-lg overflow-hidden shadow-lg bg-gray-100 flex items-center justify-center">
+              <div className="text-center p-8">
+                <h3 className="text-2xl font-bold mb-4">Victor Odhiambo</h3>
+                <p className="text-brand-blue font-medium mb-4">Technical Director</p>
+                <p className="text-gray-700">
+                  Victor Odhiambo leads our team with years of technical expertise and industry knowledge. With a strong background in engineering and a passion for innovative solutions, Victor ensures that Blyevic Technology Solutions delivers professional cooling and fabrication services that meet the highest standards of quality.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -70,24 +71,15 @@ const About = () => {
           </div>
           
           <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3">
-              <div className="md:col-span-1">
-                <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80"
-                  alt="Victor Odhiambo"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="md:col-span-2 p-8">
-                <h3 className="text-2xl font-bold mb-2">Victor Odhiambo</h3>
-                <p className="text-brand-blue font-medium mb-4">Technical Director</p>
-                <p className="text-gray-700 mb-4">
-                  Victor Odhiambo brings years of technical expertise and industry knowledge to Blyevic Technology Solutions. With a strong background in engineering and a passion for innovative solutions, Victor leads our team in delivering professional cooling and fabrication services that meet the highest standards of quality.
-                </p>
-                <p className="text-gray-700">
-                  Under Victor's leadership, Blyevic Technology Solutions has established itself as a trusted partner for businesses across East Africa seeking reliable HVAC systems, cold storage solutions, mortuary equipment, commercial kitchen installations, and metal fabrication services.
-                </p>
-              </div>
+            <div className="p-8 text-center">
+              <h3 className="text-2xl font-bold mb-2">Victor Odhiambo</h3>
+              <p className="text-brand-blue font-medium mb-4">Technical Director</p>
+              <p className="text-gray-700 mb-4">
+                Victor Odhiambo brings years of technical expertise and industry knowledge to Blyevic Technology Solutions. With a strong background in engineering and a passion for innovative solutions, Victor leads our team in delivering professional cooling and fabrication services that meet the highest standards of quality.
+              </p>
+              <p className="text-gray-700">
+                Under Victor's leadership, Blyevic Technology Solutions has established itself as a trusted partner for businesses across East Africa seeking reliable HVAC systems, cold storage solutions, mortuary equipment, commercial kitchen installations, and metal fabrication services.
+              </p>
             </div>
           </div>
         </div>
